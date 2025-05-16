@@ -1,0 +1,11 @@
+print("Nhap cac dong van ban ")
+lines=[]
+while True:
+    line = input()
+    if line.lower()=='done':
+        break
+    lines.append(line)
+print("\nCac dong da nhap sau khi chuyen thanh in hoa ")
+for line in lines:
+    print(line.upper())
+
